@@ -1,5 +1,4 @@
-import { requireAuth } from 'src/lbi/auth'
-
+import { requireAuth } from 'src/lib/auth'
 import { db } from 'src/lib/db'
 
 export const posts = () => {
